@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="script.js" charset="UTF-8" defer></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Portfólio Pessoal</title>
+</head>
+
+<body class="light">
+  <!-- Meu cabeçalho -->
+  <header>
+    <ul>
+      <a href="#about-me">
+        <li>Sobre mim</li>
+      </a>
+      <a href="#educatinal">
+        <li>Formação educacional</li>
+      </a>
+      <a href="#portfolio">
+        <li>Portfólio</li>
+      </a>
+      <a href="#contact">
+        <li>Contato</li>
+      </a>
+    </ul>
+    <!-- Botão que realiza a alteração de temas usando o javascript -->
+    <button id="toggleTheme">Alterar tema</button>
+  </header>
+  <!-- Conteúdo principal da minha página -->
+  <main>
+    <!-- Sessão sobre mim -->
+    <div id="about-me" class="container">
+      <h2>
+        Sobre Mim
+      </h2>
+      <div class="container-text">
+        <div class="container-about-me">
+          <h3>
+            Olá, me chamo Natália Schmidt!
+          </h3>
+          <p>
+            Desde a juventude, nutri duas grandes paixões: a veterinária e a tecnologia. À medida que o tempo passava, a
+            proximidade com os animais guiou minha escolha pela carreira de veterinária. Após anos dedicados, alcancei
+            meus objetivos nesse campo e decidi reavivar um antigo desejo. Assim, em busca de novos desafios, optei por
+            explorar outras possibilidades e iniciar meus estudos em uma área que sempre despertou meu interesse: a
+            tecnologia.
+          </p>
+          <p>
+            Estou em constante desenvolvimento na área de tecnologia, aprimorando minhas habilidades através de estudos
+            em tecnologias que despertam minha curiosidade, com o objetivo de evoluir profissionalmente. Atualmente,
+            estou à procura de novas oportunidades e desafios que me permitam aplicar os conhecimentos adquiridos ao
+            longo dos meus estudos. Comprometo-me a aprimorar minhas habilidades e enfrentar novos desafios de maneira
+            dedicada.
+          </p>
+        </div>
+        <img src="./img/image01.png" alt="Imagem em desenho de uma personagem loira com uma gata preta">
+      </div>
+    </div>
+    <!-- Sessão sobre minha formação -->
+    <div id="educatinal" class="container">
+      <h2>
+        Formação Educacional
+      </h2>
+      <div class="container-degrees">
+        <div class="container-graduation">
+          <h3>Graduação em Tecnologia e Análise de Desenvolvimento de Sistemas - Cursando</h3>
+          <p>Uninter (04/2024 - 10/2026)</p>
+        </div>
+
+        <div class="container-graduation">
+          <h3>Curso Desenvolvimento full stack</h3>
+          <p>Curso Desenvolvimento Web - Trybe (Out 2022 - Fev-2024)</p>
+        </div>
+
+        <div class="container-graduation">
+          <h3>Graduação em Medicina Veterinária</h3>
+          <p>Universidade Federal do Rio Grande do Sul (2010-2015)</p>
+        </div>
+      </div>
+    </div>
+    <!-- Sessão contendo meu portfolio -->
+    <div id="portfolio" class="container">
+      <h2>
+        Portfólio
+      </h2>
+      <div class="container-links">
+        <a class="container-portfolio" href="https://github.com/nataliaschmidt" target="_blank"><img class="logo"
+            src="./img/github.svg" alt="logo github">Github</a>
+        <a class="container-portfolio" href="https://nataliakschmidt.vercel.app/#about-me" target="_blank"><img
+            class="logo" src="./img/user.svg" alt="logo github"> Portfólio pessoal</a>
+      </div>
+
+    </div>
+    </div>
+    <!-- Sessão para contatos -->
+    <div id="contact" class="container">
+      <h2>
+        Contato
+      </h2>
+      <form>
+        <label for="name">Nome:
+          <input id="name" type="text" placeholder="Digite seu nome">
+        </label>
+        <label for="email">E-mail:
+          <input id="email" type="email" placeholder="Digite seu e-mail">
+        </label>
+        <label for="message">Mensagem:
+          <input id="message" type="text" placeholder="Deixe sua mensagem">
+        </label>
+        <button>Enviar</button>
+      </form>
+    </div>
+
+
+
+  </main>
+</body>
+
+</html>
